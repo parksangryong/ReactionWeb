@@ -54,6 +54,9 @@
         order: 2;
         width: 100%;
     }
+    .gnb{
+        display: none;
+    }
     .gnb li{
         display: flex;
         background: #2c3e50;
@@ -96,6 +99,7 @@
         padding: 3.000rem 0;
         text-align: center;
         background: #219af7;
+        width: 100%;
     }
     .sub_header_section h2{
         margin-bottom: 12px;
@@ -116,6 +120,7 @@
         padding: 20px;
         padding: 1.250rem;
         background: #fff;
+        width: 100%;
     }
     .content_section > div{
         margin-top: 60px;
@@ -237,7 +242,6 @@
             background: #2ecc71;
         }
         .gnb{
-            display: none;
             position: absolute;
             top: 100%;
             right: 0;

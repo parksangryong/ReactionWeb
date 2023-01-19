@@ -54,6 +54,9 @@
     order: 2;
     width: 100%;
 }
+.gnb{
+    display: none;
+}
 .gnb li{
     display: flex;
     background: #2c3e50;
@@ -293,7 +296,6 @@ span.next_btn{
         background: #2ecc71;
     }
     .gnb{
-        display: none;
         position: absolute;
         top: 100%;
         right: 0;

@@ -50,6 +50,9 @@
         background: #2ecc71;
         text-shadow: 0px 1px 1px #25ab5e;
     }
+    .gnb{
+        display: none;
+    }
     .nav{
         order: 2;
         width: 100%;
@@ -96,6 +99,7 @@
         padding: 3.000rem 0;
         text-align: center;
         background: #219af7;
+        width: 100%;
     }
     .sub_header_section h2{
         margin-bottom: 12px;
@@ -408,7 +412,7 @@
             width: 87.5%;
         }
         .gnb{
-            display: none;
+            display: flex !important;
             flex-direction: row;
             position: static;
             width: 100%;
@@ -433,6 +437,7 @@
         /* pc용 서브헤더영역 */
         .sub_header_section{
             order: 2;
+            width: 100%;
         }
         /* pc용 콘텐츠영역 */
         .content_section{
